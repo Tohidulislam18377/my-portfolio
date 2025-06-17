@@ -1,0 +1,79 @@
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: #0f172a;
+}
+
+.active {
+    color: #92fe9d;
+    border-bottom: 2px solid white;
+}
+
+nav h1 {
+    font-size: 30px;
+    font-weight: 500;
+    background: linear-gradient(to right, #00c9ff, #92fe9d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.mobileMenu {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 100vh;
+    background-color: #0F172A;
+    backdrop-filter: blur(7px);
+    right: 0;
+    transform: translateX(100%);
+    flex-direction: column;
+    transition: all 0.5s;
+    gap: 40px;
+}
+
+.activeMobile {
+    transform: translateX(0%);
+}
+
+.ham {
+    width: 40px;
+    height: 2px;
+    background-color: aliceblue;
+    /* transition: all 0.5s; */
+}
+
+.activeHam .ham:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 8px;
+}
+
+.activeHam .ham:nth-child(2) {
+    opacity: 0;
+}
+
+.activeHam .ham:nth-child(3) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -12px;
+}
+
+
+
+@media (max-width:750px) {
+    .desktopMenu {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
