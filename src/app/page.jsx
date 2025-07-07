@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div id="home" className="flex flex-col-reverse md:flex-row items-center justify-center md:gap-0 w-full h-full ">
       {/* left home */}
-      <div className="left-home h-[50vh] w-[100%] md:w-[50%] md:h-[100vh] flex justify-center items-center text-white">
+      <div className="left-home h-[43vh] w-[100%] md:w-[50%] md:h-[100vh] flex justify-center items-center text-white">
         <div className="homeDetails">
           <div className='line1'>HELLO  I'M</div>
           <div className='line2'>TOHIDUL ISLAM</div>
@@ -38,7 +38,7 @@ export default function Home() {
         </div>
       </div>
       {/* right home */}
-      <div className="right-home h-[50vh] w-[100%] md:w-[50%] md:h-[100vh] flex items-end md:justify-center md:items-center">
+      <div className="right-home h-[43vh] w-[100%] md:w-[50%] md:h-[100vh] flex items-end md:justify-center md:items-center">
         <Image className='img'
           alt='man image'
           src={imgMan}

@@ -14,7 +14,7 @@ import Image from 'next/image';
 export default function About() {
     return (
         <div className="h-full w-full flex flex-col md:flex-row" id='about'>
-            <div className="leftAbout w-[100%] md:w-[50%] h-[100vh] md:h-[100vh]  flex justify-center items-center gap-5">
+            <div className="leftAbout w-[100%] md:w-[50%] h-[75vh] md:h-[100vh]  flex justify-center items-center gap-5">
                 <div className="circle-line">
                     <div className="circle"></div>
                     <div className="line"></div>
@@ -51,12 +51,12 @@ export default function About() {
                             <li><span>FRONTED DEVELOPER</span></li>
                             <li><span>MOBILE RESPONSIVE DESIGN</span></li>
                             <li><span className='name-and-other-section'>FRONTEND</span> : HTML, CSS, JAVASCRIPT, <br /> REACT JS, NEXT JS, FIREBASE</li>
-                            <li><span className='name-and-other-section'>BACKEND</span> : NODE JS , EXPRESS JS , MONGODB, </li>
+                            <li><span className='name-and-other-section'>BACKEND</span> : NODE JS , EXPRESS JS , MONGODB </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div className="rightAbout w-[100%] md:w-[50%] h-[100vh] md:h-[100vh] flex flex-col items-center justify-center gap-y-5 text-white">
+            <div className="rightAbout w-[100%] md:w-[50%] h-[75vh] md:h-[100vh] flex flex-col items-center justify-center gap-y-5 text-white">
                 <div>
                     <h1 className='title-info text-center'>Frontend Skill</h1>
                     <div style={{ marginRight: '10px', paddingTop: '17px', paddingBottom: '17px', paddingLeft: '10px', paddingRight: '10px' }} className="frontend-section flex flex-wrap justify-center gap-3 rounded">
