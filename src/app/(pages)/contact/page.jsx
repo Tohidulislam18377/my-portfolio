@@ -7,8 +7,8 @@ import Image from 'next/image';
 export default function Contact() {
     return (
         <div className='h-full w-full flex flex-col md:flex-row ' id='contact'>
-            <div className="left-side flex justify-center items-center h-[50vh] md:h-[90vh] w-full md:w-[50%]">
-                <Image className='contact-img w-full'
+            <div className="left-side flex justify-center items-center h-[60vh] md:h-[90vh] w-full md:w-[50%]">
+                <Image className='contact-img'
                     alt='contact-image'
                     src={contactImage}
                 ></Image>
