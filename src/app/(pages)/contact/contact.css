@@ -60,3 +60,11 @@ form textarea {
         margin-top: 180px;
     }
 }
+
+@media (max-width:750px) {
+    .contact {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+    }
+}
