@@ -25,9 +25,10 @@
 }
 
 .live-link {
-    width: 340px;
+    width: 360px;
     margin: auto;
     margin-bottom: 10px;
+    /* padding-left: 20px; */
 }
 
 .live-link-code {
@@ -35,7 +36,7 @@
     background-color: lab(81.5% -28.83 -4.53);
     border: 2px solid lab(81.5% -28.83 -4.53);
     transition: all 0.3s;
-    width: max-content;
+
 }
 
 .live-link-code:hover {

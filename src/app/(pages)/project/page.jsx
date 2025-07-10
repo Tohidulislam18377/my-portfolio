@@ -26,14 +26,14 @@ export default function Project() {
                             <p style={{ padding: '5px' }} className='border border-white rounded-2xl'>Mongodb</p>
                             <p style={{ padding: '5px' }} className='border border-white rounded-2xl w-24'>TailwindCss</p>
                         </div>
-                        <div className='live-link flex gap-5'>
-                            <div>
+                        <div className='live-link flex gap-x-3'>
+                            <div className='w-[220px]'>
                                 <Link className='live-link-code text-black rounded cursor-pointer' href={'https://bright-wisp-076311.netlify.app/'}>Live Link</Link>
                             </div>
-                            <div>
+                            <div className='w-[300px]'>
                                 <Link className='live-link-code text-black rounded cursor-pointer' href={'https://github.com/Tohidulislam18377/bistro-boss-restaurent-client'}>Github Client</Link>
                             </div>
-                            <div>
+                            <div className='w-[300px]'>
                                 <Link className='live-link-code text-black rounded cursor-pointer' href={'https://github.com/Tohidulislam18377/bistro-boss-server'}>Github Server</Link>
                             </div>
                         </div>
@@ -67,14 +67,14 @@ export default function Project() {
                             <p style={{ padding: '5px' }} className='border border-white rounded-2xl'>Mongodb</p>
                             <p style={{ padding: '5px' }} className='border border-white rounded-2xl w-24'>TailwindCss</p>
                         </div>
-                        <div className='live-link flex gap-5'>
-                            <div>
+                        <div className='live-link flex gap-x-3'>
+                            <div className='w-[220px]'>
                                 <Link className='live-link-code text-black rounded cursor-pointer' href={'https://bright-wisp-076311.netlify.app/'}>Live Link</Link>
                             </div>
-                            <div>
+                            <div className='w-[300px]'>
                                 <Link className='live-link-code text-black rounded cursor-pointer' href={'https://github.com/Tohidulislam18377/bistro-boss-restaurent-client'}>Github Client</Link>
                             </div>
-                            <div>
+                            <div className='w-[300px]'>
                                 <Link className='live-link-code text-black rounded cursor-pointer' href={'https://github.com/Tohidulislam18377/bistro-boss-restaurent-client'}>Github Server</Link>
                             </div>
                         </div>
@@ -109,13 +109,13 @@ export default function Project() {
                             <p style={{ padding: '5px' }} className='border border-white rounded-2xl w-24'>TailwindCss</p>
                         </div>
                         <div className='live-link flex gap-5'>
-                            <div>
+                            <div className='w-[220px]'>
                                 <Link className='live-link-code text-black rounded cursor-pointer' href={'https://silly-clafoutis-b5a8ef.netlify.app/'}>Live Link</Link>
                             </div>
-                            <div>
+                            <div className='w-[300px]'>
                                 <Link className='live-link-code text-black rounded cursor-pointer' href={'https://github.com/Tohidulislam18377/bistro-boss-restaurent-client'}>Github Client</Link>
                             </div>
-                            <div>
+                            <div className='w-[300px]'>
                                 <Link className='live-link-code text-black rounded cursor-pointer' href={'https://github.com/Tohidulislam18377/bistro-boss-restaurent-client'}>Github Server</Link>
                             </div>
                         </div>
