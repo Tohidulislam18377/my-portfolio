@@ -35,6 +35,7 @@
     background-color: lab(81.5% -28.83 -4.53);
     border: 2px solid lab(81.5% -28.83 -4.53);
     transition: all 0.3s;
+    width: max-content;
 }
 
 .live-link-code:hover {
