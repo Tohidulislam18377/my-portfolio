@@ -113,10 +113,10 @@ export default function Project() {
                                 <Link className='live-link-code text-black rounded cursor-pointer' href={'https://silly-clafoutis-b5a8ef.netlify.app/'}>Live Link</Link>
                             </div>
                             <div className='w-[300px]'>
-                                <Link className='live-link-code text-black rounded cursor-pointer' href={'https://github.com/Tohidulislam18377/bistro-boss-restaurent-client'}>Github Client</Link>
+                                <Link className='live-link-code text-black rounded cursor-pointer' href={'https://github.com/Tohidulislam18377/sports-car-client'}>Github Client</Link>
                             </div>
                             <div className='w-[300px]'>
-                                <Link className='live-link-code text-black rounded cursor-pointer' href={'https://github.com/Tohidulislam18377/bistro-boss-restaurent-client'}>Github Server</Link>
+                                <Link className='live-link-code text-black rounded cursor-pointer' href={'https://github.com/Tohidulislam18377/sports-car-server'}>Github Server</Link>
                             </div>
                         </div>
                         {/* User Side Features */}

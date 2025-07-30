@@ -30,10 +30,10 @@ export default function Home() {
           </div>
           <button className='text-black rounded-2xl cursor-pointer'>Download CV</button>
           <div className='social-media flex gap-5'>
-            <div style={{ padding: '15px' }} className='bg-[#0c1d22] cursor-pointer hover:scale-112 transition-all duration-300 ease-in-out'><Link href={'https://www.facebook.com/'}><SiFacebook /></Link></div>
-            <div style={{ padding: '15px' }} className='bg-[#0c1d22] cursor-pointer hover:scale-112 transition-all duration-300 ease-in-out'><Link href={'https://www.instagram.com/'}><RiInstagramFill /></Link></div>
-            <div style={{ padding: '15px' }} className='bg-[#0c1d22] cursor-pointer hover:scale-112 transition-all duration-300 ease-in-out'><Link href={'https://www.linkedin.com/feed/'}><FaLinkedin /></Link></div>
-            <div style={{ padding: '15px' }} className='bg-[#0c1d22] cursor-pointer hover:scale-112 transition-all duration-300 ease-in-out'><Link href={'https://github.com/'}><FaGithub /></Link></div>
+            <div style={{ padding: '15px' }} className='bg-[#0c1d22] cursor-pointer hover:scale-112 transition-all duration-300 ease-in-out'><Link href={'https://www.facebook.com/touhidul.islam.9887117'}><SiFacebook /></Link></div>
+            <div style={{ padding: '15px' }} className='bg-[#0c1d22] cursor-pointer hover:scale-112 transition-all duration-300 ease-in-out'><Link href={'https://www.instagram.com/touhidul_islam1837/'}><RiInstagramFill /></Link></div>
+            <div style={{ padding: '15px' }} className='bg-[#0c1d22] cursor-pointer hover:scale-112 transition-all duration-300 ease-in-out'><Link href={'https://www.linkedin.com/in/tohidul-islam-454a9428b/'}><FaLinkedin /></Link></div>
+            <div style={{ padding: '15px' }} className='bg-[#0c1d22] cursor-pointer hover:scale-112 transition-all duration-300 ease-in-out'><Link href={'https://github.com/Tohidulislam18377'}><FaGithub /></Link></div>
           </div>
         </div>
       </div>
